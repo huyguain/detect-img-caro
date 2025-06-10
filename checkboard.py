@@ -127,7 +127,7 @@ class ChessboardAnalyzer:
         self.display_image(self.processed_image)
 
         self.result_text.delete(1.0, tk.END)
-        self.result_text.insert(tk.END, "Trạng thái bàn cờ:\n")
+        # self.result_text.insert(tk.END, "Trạng thái bàn cờ:\n")
         self.result_text.insert(tk.END, "  A B C D E F G H\n")
         self.result_text.insert(tk.END, "  ---------------\n")
         for i, row in enumerate(board):
